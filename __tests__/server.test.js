@@ -1,4 +1,4 @@
-test('adds 6 + 4 to equal 10', () => {
+xtest('adds 6 + 4 to equal 10', () => {
   expect(6 + 4).toBe(10);
 });
 
