@@ -1,11 +1,11 @@
 xtest('adds 6 + 4 to equal 10', () => {
-  expect(6 + 4).toBe(10);
+  expect(6 + 4).toBe(410);
 });
 
 ('use strict');
 const supertest = require('supertest');
 const server = require('../server');
-const request = supertest(server.app);
+const request = supertest(server.app );
 
 describe('API Server', () => {
   it('handles the invalid requests', async () => {
